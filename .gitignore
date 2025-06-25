@@ -11,16 +11,3 @@ logs/
 # Ignore Python cache files
 *.pyc
 __pycache__/
-
-# Ignore test outputs (optional)
-data/images/test/
-data/images/qa/results/
-
-# Ignore large model files
-models/*.pth
-models/*.onnx
-
-# DO NOT ignore your dataset or inference outputs
-# Keep these folders so they get committed:
-#   - data/testdataset/
-#   - inference_outputs/
